@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 const criticalStyles = `
@@ -170,6 +170,7 @@ form aside a{display:flex;align-items:center;gap:12px;border-radius:18px;backgro
 @media (min-width:768px){.md\\:flex{display:flex!important}.md\\:text-6xl{font-size:3.75rem}.md\\:text-7xl{font-size:4.5rem}.md\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\\:p-8{padding:2rem}.md\\:p-10{padding:2.5rem}.md\\:col-span-2{grid-column:span 2/span 2}}
 @media (min-width:1024px){.lg\\:inline-flex{display:inline-flex!important}.lg\\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\\:grid-cols-\\[1\\.05fr_0\\.95fr\\]{grid-template-columns:1.05fr .95fr}.lg\\:grid-cols-\\[1fr_0\\.75fr\\]{grid-template-columns:1fr .75fr}.lg\\:px-8{padding-left:2rem;padding-right:2rem}.lg\\:pt-16{padding-top:4rem}.lg\\:pb-24{padding-bottom:6rem}}
 @media (max-width:900px){section{padding:42px 16px}header nav,#top>div,#products article,form,footer>div{grid-template-columns:1fr;flex-wrap:wrap}header nav{align-items:flex-start}header nav>div:nth-child(2){order:3;width:100%;overflow:auto;padding-bottom:4px}#top .aspect-\\[4\\/3\\],#products article>div:first-child{min-height:280px}form>div>.mt-6{grid-template-columns:1fr}#prices{overflow-x:auto}}
+@media (max-width:640px){html,body{width:100%;max-width:100%;overflow-x:hidden}section{padding:34px 14px}header nav{padding:14px 16px;align-items:center;gap:10px}header nav>div:last-child{margin-left:auto;gap:8px}header nav>div:last-child a{display:none!important}header nav>div:last-child button{padding:10px}header .h-11{height:40px;width:40px}header .text-xl{font-size:1.75rem;line-height:1.05}header .text-xs{font-size:.72rem;letter-spacing:.2em}#top{padding:30px 14px 46px}#top>div{gap:26px}#top h1{font-size:clamp(38px,11vw,46px);line-height:1.04;margin-top:22px}#top p{font-size:1rem;line-height:1.6}.max-w-xl{max-width:100%}#top .mt-8.flex{display:grid;grid-template-columns:1fr;gap:12px}#top a,#top button,#products a,#order a,form button{width:100%;padding:14px 18px}#top .shadow-premium{padding:12px;border-radius:1.5rem}#top .aspect-\\[4\\/3\\]{min-height:0;height:auto;aspect-ratio:1/1;border-radius:1rem}#top .grid.gap-3.p-5{grid-template-columns:1fr;padding:14px;gap:10px}#top .grid.gap-3.p-5>div{padding:14px}#products article{border-radius:1.35rem}#products article>div:first-child{min-height:0;aspect-ratio:1/1}#products article>div:first-child img{padding:12px}#products article>div:last-child{padding:22px}#products h2,#prices h2,#quality h2,#order h2,#faq h2{font-size:clamp(30px,9vw,40px)}#products h3{font-size:1.6rem}form>div,form aside{padding:22px}form h2{font-size:2rem}}
 `;
 
 export const metadata: Metadata = {
@@ -181,6 +182,11 @@ export const metadata: Metadata = {
     description: "Premium red chilli powder varieties with quick enquiry support.",
     type: "website"
   }
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
