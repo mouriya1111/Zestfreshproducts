@@ -25,7 +25,7 @@ export function Navbar() {
           </span>
           <span>
             <span className="font-display block text-xl font-black tracking-tight text-zinc-950">ZestFresh</span>
-            <span className="block text-xs font-semibold uppercase tracking-[0.24em] text-zestGreen">Mirchi Market</span>
+            <span className="block text-xs font-semibold uppercase tracking-[0.24em] text-zestGreen">Spices Market</span>
           </span>
         </a>
 
