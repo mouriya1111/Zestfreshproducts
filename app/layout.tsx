@@ -174,12 +174,22 @@ form aside a{display:flex;align-items:center;gap:12px;border-radius:18px;backgro
 `;
 
 export const metadata: Metadata = {
-  title: "ZestFresh Premium Red Chilli Powder",
+  title: "ZestFresh Products | Bulk Spice Powder Supplier",
   description:
-    "Premium mirchi powder product information for ZestFresh with variety details, quality notes, stock status, and enquiry support.",
+    "ZestFresh Products supplies mirchi powder, haldi powder, coriander powder, garam masala, and chicken masala enquiry support for hotels, hostels, restaurants, retailers, and bulk buyers.",
+  keywords: [
+    "bulk spice powder supplier",
+    "mirchi powder supplier",
+    "haldi powder supplier",
+    "coriander powder supplier",
+    "garam masala supplier",
+    "chicken masala supplier",
+    "spice powder supplier Hyderabad",
+    "spices for hotels hostels restaurants"
+  ],
   openGraph: {
-    title: "ZestFresh Mirchi Powder",
-    description: "Premium red chilli powder varieties with quick enquiry support.",
+    title: "ZestFresh Products",
+    description: "Bulk spice powder enquiry support for mirchi, haldi, coriander, garam masala, and chicken masala.",
     type: "website"
   }
 };

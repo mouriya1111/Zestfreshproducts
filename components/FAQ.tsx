@@ -6,16 +6,28 @@ import { Badge, Card } from "@/components/ui";
 
 const faqs = [
   {
-    question: "Can ZestFresh supply bulk mirchi powder orders?",
-    answer: "Yes. ZestFresh supports bulk enquiries for restaurants, retailers, masala manufacturers, and distributors."
+    question: "Can ZestFresh supply bulk spice powder orders?",
+    answer: "Yes. ZestFresh supports bulk enquiries for mirchi powder, haldi powder, coriander powder, garam masala, and chicken masala for restaurants, hostels, hotels, retailers, and distributors."
   },
   {
-    question: "Which chilli powder variety should I choose?",
+    question: "Do you supply spice powder for hotels, hostels, and restaurants?",
+    answer: "Yes. ZestFresh accepts enquiries from hotels, hostels, PG kitchens, restaurants, canteens, caterers, retailers, and food-service buyers."
+  },
+  {
+    question: "Which mirchi powder variety should I choose?",
     answer: "Choose Teja for high heat, Byadgi or Kashmiri for stronger colour, Guntur Sannam for balanced daily cooking, and Reshampatti for standard consumer packs."
+  },
+  {
+    question: "Do you have haldi, coriander, garam masala, and chicken masala?",
+    answer: "Yes. ZestFresh product pages include haldi powder, coriander powder, garam masala, and chicken masala with usage details and enquiry options."
   },
   {
     question: "Do you provide custom grinding and packaging?",
     answer: "Yes. The product catalogue lists available forms such as fine powder, coarse powder, flakes, consumer packs, and bulk packaging options."
+  },
+  {
+    question: "Where is ZestFresh based?",
+    answer: "ZestFresh is based in Hyderabad, Telangana, India, and supports enquiries from Telangana, Andhra Pradesh, and nearby bulk spice buyers."
   },
   {
     question: "How do I send an enquiry?",
