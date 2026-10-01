@@ -1,6 +1,6 @@
 "use client";
 
-import { Leaf, Mail, Printer, Share2 } from "lucide-react";
+import { Leaf, Mail, Share2 } from "lucide-react";
 
 export function Navbar() {
   const sharePage = async () => {
@@ -42,9 +42,6 @@ export function Navbar() {
             <Mail size={16} className="mr-2" aria-hidden="true" />
             Enquire Now
           </a>
-          <button className="rounded-full border border-zinc-200 bg-white p-2.5 text-zinc-700 transition hover:border-zestRed hover:text-zestRed" type="button" onClick={() => window.print()} aria-label="Print page">
-            <Printer size={18} />
-          </button>
           <button className="rounded-full border border-zinc-200 bg-white p-2.5 text-zinc-700 transition hover:border-zestRed hover:text-zestRed" type="button" onClick={sharePage} aria-label="Share page">
             <Share2 size={18} />
           </button>

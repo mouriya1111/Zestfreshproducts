@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowRight, Flame, Mail, Printer, Share2 } from "lucide-react";
+import { ArrowRight, Flame, Mail, Share2 } from "lucide-react";
 import type { MirchiPriceData } from "@/lib/price-types";
 import { Badge, Card } from "@/components/ui";
 
@@ -57,10 +57,6 @@ export function Hero({ data }: Readonly<{ data: MirchiPriceData }>) {
               <Mail size={18} className="mr-2" aria-hidden="true" />
               Enquire Now
             </a>
-            <button className="inline-flex items-center rounded-full border border-zinc-200 bg-white px-5 py-3 text-sm font-bold text-zinc-900 shadow-sm transition hover:-translate-y-1 hover:border-zestOrange" type="button" onClick={() => window.print()}>
-              <Printer size={18} className="mr-2" aria-hidden="true" />
-              Print
-            </button>
             <button className="inline-flex items-center rounded-full border border-zinc-200 bg-white px-5 py-3 text-sm font-bold text-zinc-900 shadow-sm transition hover:-translate-y-1 hover:border-zestOrange" type="button" onClick={sharePage}>
               <Share2 size={18} className="mr-2" aria-hidden="true" />
               Share
