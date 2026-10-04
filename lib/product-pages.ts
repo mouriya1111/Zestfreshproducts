@@ -16,7 +16,7 @@ export const seoProductPages: SeoProductPage[] = [
     slug: "mirchi-powder",
     title: "Mirchi Powder",
     shortTitle: "Mirchi",
-    productNames: ["Guntur Sannam", "Byadgi", "Kashmiri", "Teja Chilli", "Reshampatti"],
+    productNames: ["Guntur Sannam", "Byadgi", "Kashmiri", "Teja Chilli", "341 Mirchi", "Reshampatti"],
     searchTitle: "Mirchi powder supplier for hotels, hostels, restaurants, and bulk buyers",
     description:
       "Premium red chilli powder options with rich colour, reliable heat, and food-service friendly quality for kitchens, hotels, hostels, restaurants, retailers, and spice buyers.",

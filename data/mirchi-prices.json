@@ -123,6 +123,31 @@
       "uses": ["Spicy curries", "Hot sauces", "Spice mixes", "Food service"]
     },
     {
+      "id": 10,
+      "image": "/images/341-mirchi-real.png",
+      "variety": "341 Mirchi",
+      "grade": "Premium",
+      "origin": "India",
+      "unit": "1 Kg",
+      "wholesalePrice": 300,
+      "retailPrice": 340,
+      "previousPrice": 300,
+      "difference": 0,
+      "trend": "stable",
+      "availability": "Available",
+      "updatedTime": "09:45 AM",
+      "description": "A premium 341 mirchi powder option with bright red colour, bold aroma, and balanced heat for daily cooking, bulk kitchens, and spice blend requirements.",
+      "forms": ["Fine Powder", "Coarse Powder", "Bulk Pack"],
+      "highlights": ["Bright red colour", "Bold chilli aroma", "Balanced heat", "Bulk-buyer friendly"],
+      "specifications": [
+        { "label": "Heat Level", "value": "Medium to hot" },
+        { "label": "Colour", "value": "Rich red" },
+        { "label": "Moisture", "value": "8-10%" },
+        { "label": "Processing", "value": "Cleaned, dried, and finely ground" }
+      ],
+      "uses": ["Curries", "Masala blends", "Pickles", "Food service"]
+    },
+    {
       "id": 5,
       "image": "/images/reshampatti-real.jpg",
       "variety": "Reshampatti",
