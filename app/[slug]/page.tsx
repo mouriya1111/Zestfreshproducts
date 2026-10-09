@@ -5,7 +5,6 @@ import type { Metadata } from "next";
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import { Badge } from "@/components/ui";
-import { formatCurrency } from "@/lib/price-types";
 import { getMirchiPrices } from "@/lib/prices";
 import { getProductsForPage, getSeoProductPage, seoProductPages } from "@/lib/product-pages";
 
@@ -117,8 +116,8 @@ export default async function ProductSeoPage({ params }: PageProps) {
                       <p className="mt-1 font-black text-zinc-950">{product.forms.join(", ")}</p>
                     </div>
                     <div className="rounded-xl bg-zinc-50 p-4">
-                      <p className="text-xs font-bold uppercase text-zinc-500">Indicative rate</p>
-                      <p className="mt-1 font-black text-zinc-950">{formatCurrency(product.wholesalePrice, data.currency)} / {product.unit}</p>
+                      <p className="text-xs font-bold uppercase text-zinc-500">Enquiry</p>
+                      <p className="mt-1 font-black text-zinc-950">Contact for details</p>
                     </div>
                   </div>
                   <div className="mt-5">
